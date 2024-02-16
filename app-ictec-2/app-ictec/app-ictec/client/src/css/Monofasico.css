@@ -1,0 +1,177 @@
+.container_mon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 0 0 40px;
+    position: relative;
+}
+.input_prg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-color: transparent;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 10px 180px;  
+}
+.texto_prg{
+    font-size: 15px;
+    margin-left: 5px;
+}
+.next-button{
+    position: absolute;
+    right:2px;
+    bottom: 5px;
+    background-color: #512da8;
+    color: #fff;
+    font-size: 12px;
+    padding: 8px 40px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.prev-button{
+    position: absolute;
+    right: 180px;
+    bottom: 5px; 
+    background-color: #512da8;
+    color: #fff;
+    font-size: 12px;
+    padding: 8px 40px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.redirect-button{
+    position: absolute;
+    right: 180px;
+    bottom: 5px; 
+    background-color: #512da8;
+    color: #fff;
+    font-size: 12px;
+    padding: 8px 40px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.close-btt{
+    position: absolute;
+    right: 335px; /* Ajustamos la propiedad left para posicionar a la izquierda */
+    bottom: 5px; /* Puedes ajustar la propiedad top según tus necesidades */
+    background-color: #512da8;
+    color: #fff;
+    font-size: 12px;
+    padding: 8px 40px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer; 
+}
+.input-images{
+    margin-top: 15px;
+}
+.submit-button{
+    position: absolute;
+    right:2px; /* Ajustamos la propiedad left para posicionar a la izquierda */
+    bottom: 5px; /* Puedes ajustar la propiedad top según tus necesidades */
+    background-color: #512da8;
+    color: #fff;
+    font-size: 12px;
+    padding: 8px 35px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+    .container_mon{
+        height: 800px;
+    }
+    .input_prg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-color: transparent;
+        background-color: #eee;
+        border-radius: 5px;
+        padding: 10px 60px;
+    }
+    .next-button{
+        right:2px; /* Ajustamos la propiedad left para posicionar a la izquierda */
+        bottom: 5px; /* Puedes ajustar la propiedad top según tus necesidades */
+        color: #fff;
+        padding: 5px 35px;
+    }
+    .prev-button{
+        right:150px; /* Ajustamos la propiedad left para posicionar a la izquierda */
+        bottom: 5px; /* Puedes ajustar la propiedad top según tus necesidades */
+        color: #fff;
+        padding: 5px 35px;
+    }
+    .texto_prg{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .redirect-button{
+        right:150px; /* Ajustamos la propiedad left para posicionar a la izquierda */
+        bottom: 5px; /* Puedes ajustar la propiedad top según tus necesidades */
+        color: #fff;
+        padding: 5px 35px;
+    }
+    .close-btt{
+        right: 150px;
+        bottom: 40px;
+        width: 140px;
+
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .input-images{
+        margin-left: 100px;
+    }
+    .firma{
+        margin: auto;
+        width: 80%;
+    }
+    .submit-button{
+        right:2px; /* Ajustamos la propiedad left para posicionar a la izquierda */
+        bottom: 5px; /* Puedes ajustar la propiedad top según tus necesidades */
+        color: #fff;
+        padding: 5px 20px;
+    }
+    .container_mon h2{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .firma h2{
+        margin-left: 5px;
+    }
+}
